@@ -1,0 +1,17 @@
+{
+  "name": "frappe-css",
+  "version": "1.0.0",
+  "description": "CSS Framework and Design Guidelines for Frappe based websites",
+  "main": "index.js",
+  "repository": "https://github.com/frappe/css",
+  "author": "Frappe",
+  "license": "MIT",
+  "scripts": {
+    "start": "rollup -c -w",
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "cssnext": "^1.8.4",
+    "postcss-import": "^11.1.0"
+  }
+}
