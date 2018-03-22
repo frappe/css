@@ -273,33 +273,11 @@ code, pre {
 .bold {
 	font-weight: bold;
 }
-.list-unstyled {
-	padding: 0;
-
-	li {
-		list-style: none;
-	}
-}
 .list-circle {
 	list-style: circle;
 }
-.bullet {
-	&::before {
-		content: "\2022";
-		display: inline-block;
-		width: 1em;
-		font-size: 1.25rem;
-	}
-}
 .half-width {
 	max-width: 50%;
-}
-.saturate {
-	filter: grayscale(100%);
-
-	&:hover {
-		filter: grayscale(0%);
-	}
 }
 /* colors */
 /*
