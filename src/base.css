@@ -259,9 +259,39 @@ code, pre {
 	padding: var(--unit-4);
 }
 
+.ph1 {
+	padding-left: var(--unit-1);
+	padding-right: var(--unit-1);
+}
+
+.ph2 {
+	padding-left: var(--unit-2);
+	padding-right: var(--unit-2);
+}
+
+.ph3 {
+	padding-left: var(--unit-3);
+	padding-right: var(--unit-3);
+}
+
 .ph4 {
-	padding-right: var(--unit-4);
 	padding-left: var(--unit-4);
+	padding-right: var(--unit-4);
+}
+
+.pv1 {
+	padding-left: var(--unit-1);
+	padding-right: var(--unit-1);
+}
+
+.pv2 {
+	padding-left: var(--unit-2);
+	padding-right: var(--unit-2);
+}
+
+.pv3 {
+	padding-left: var(--unit-3);
+	padding-right: var(--unit-3);
 }
 
 .pv4 {
@@ -280,10 +310,10 @@ code, pre {
 }
 
 /* list */
+
 .list-unstyled {
 	list-style: none;
 }
-
 
 /* flex */
 
