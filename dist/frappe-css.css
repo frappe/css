@@ -22,7 +22,12 @@ code, pre {
 
 .border {
 	border: 1px solid #d3d7db;
-	border: 1px solid var(--light-grey);
+	border: var(--border-value);
+}
+
+.border-right {
+	border-right: 1px solid #d3d7db;
+	border-right: var(--border-value);
 }
 
 /* list */
@@ -59,6 +64,10 @@ code, pre {
 	--primary-color: #7574ff;
 
 	--primary-color: var(--purple);
+
+	--border-value: 1px solid #d3d7db;
+
+	--border-value: 1px solid var(--light-grey);
 }
 
 /* typography */

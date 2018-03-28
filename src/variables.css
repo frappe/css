@@ -24,4 +24,6 @@
 	--white: #ffffff;
 
 	--primary-color: var(--purple);
+
+	--border-value: 1px solid var(--light-grey);
 }

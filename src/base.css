@@ -21,7 +21,11 @@ code, pre {
 }
 
 .border {
-	border: 1px solid var(--light-grey);
+	border: var(--border-value);
+}
+
+.border-right {
+	border-right: var(--border-value);
 }
 
 /* list */
