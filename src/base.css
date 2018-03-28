@@ -14,6 +14,12 @@ code, pre {
 	font-family: monospace;
 }
 
+input {
+	outline: none;
+	border: none;
+	border-radius: var(--border-radius);
+}
+
 /* utilities */
 
 .border0 {
@@ -55,7 +61,7 @@ code, pre {
 	color: var(--white);
 	background-color: var(--grey);
 	border: none;
-	border-radius: 0.25rem;
+	border-radius: var(--border-radius);
 	cursor: pointer;
 }
 
@@ -73,6 +79,18 @@ code, pre {
 	color: var(--white);
 }
 
+.hover-light-grey:hover {
+	background-color: var(--light-grey);
+}
+
+.border-radius {
+	border-radius: var(--border-radius);
+}
+
 .container {
 	max-width: var(--screen-md);
+}
+
+.relative {
+	position: relative;
 }

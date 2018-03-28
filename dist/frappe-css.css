@@ -14,6 +14,13 @@ code, pre {
 	font-family: monospace;
 }
 
+input {
+	outline: none;
+	border: none;
+	border-radius: 0.25rem;
+	border-radius: var(--border-radius);
+}
+
 /* utilities */
 
 .border0 {
@@ -63,6 +70,7 @@ code, pre {
 	background-color: var(--grey);
 	border: none;
 	border-radius: 0.25rem;
+	border-radius: var(--border-radius);
 	cursor: pointer;
 }
 
@@ -83,9 +91,23 @@ code, pre {
 	color: var(--white);
 }
 
+.hover-light-grey:hover {
+	background-color: #d3d7db;
+	background-color: var(--light-grey);
+}
+
+.border-radius {
+	border-radius: 0.25rem;
+	border-radius: var(--border-radius);
+}
+
 .container {
-	max-width: 1366px;
+	max-width: 1440px;
 	max-width: var(--screen-md);
+}
+
+.relative {
+	position: relative;
 }
 
 /* variables */
@@ -120,9 +142,10 @@ code, pre {
 	--border-value: 1px solid #d3d7db;
 
 	--border-value: 1px solid var(--light-grey);
+	--border-radius: 0.25rem;
 
 	/* screens */
-	--screen-md: 1366px;
+	--screen-md: 1440px;
 }
 
 /* typography */

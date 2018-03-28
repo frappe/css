@@ -26,7 +26,8 @@
 	--primary-color: var(--purple);
 
 	--border-value: 1px solid var(--light-grey);
+	--border-radius: 0.25rem;
 
 	/* screens */
-	--screen-md: 1366px;
+	--screen-md: 1440px;
 }
