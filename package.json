@@ -11,7 +11,8 @@
     "watch": "watch \"yarn build\" src"
   },
   "devDependencies": {
-    "cssnext": "^1.8.4",
+    "postcss": "^6.0.21",
+    "postcss-custom-properties": "^7.0.0",
     "postcss-import": "^11.1.0",
     "watch": "^1.0.2"
   }

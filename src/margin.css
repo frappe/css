@@ -1,0 +1,101 @@
+@import "variables.css";
+/* margin */
+.mt0 {
+	margin-top: var(--unit-0)
+}
+
+.mb0 {
+	margin-bottom: var(--unit-0);
+}
+
+.ml0 {
+	margin-left: var(--unit-0);
+}
+
+.mr0 {
+	margin-right: var(--unit-0);
+}
+
+.m0 {
+	margin: var(--unit-0);
+}
+
+.mt1 {
+	margin-top: var(--unit-1);
+}
+
+.mb1 {
+	margin-bottom: var(--unit-1);
+}
+
+.ml1 {
+	margin-left: var(--unit-1);
+}
+
+.mr1 {
+	margin-right: var(--unit-1);
+}
+
+.m1 {
+	margin: var(--unit-1);
+}
+
+.mt2 {
+	margin-top: var(--unit-2);
+}
+
+.mb2 {
+	margin-bottom: var(--unit-2);
+}
+
+.ml2 {
+	margin-left: var(--unit-2);
+}
+
+.mr2 {
+	margin-right: var(--unit-2);
+}
+
+.m2 {
+	margin: var(--unit-2);
+}
+
+.mt3 {
+	margin-top: var(--unit-3);
+}
+
+.mb3 {
+	margin-bottom: var(--unit-3);
+}
+
+.ml3 {
+	margin-left: var(--unit-3);
+}
+
+.mr3 {
+	margin-right: var(--unit-3);
+}
+
+.m3 {
+	margin: var(--unit-3);
+}
+
+.mt4 {
+	margin-top: var(--unit-4);
+}
+
+.mb4 {
+	margin-bottom: var(--unit-4);
+}
+
+.ml4 {
+	margin-left: var(--unit-4);
+}
+
+.mr4 {
+	margin-right: var(--unit-4);
+}
+
+.m4 {
+	margin: var(--unit-4);
+}

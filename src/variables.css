@@ -1,0 +1,27 @@
+/* variables */
+
+:root {
+	--unit-0: 0;
+	--unit-1: 0.5rem;
+	--unit-2: 1rem;
+	--unit-3: 1.5rem;
+	--unit-4: 2.5rem;
+	--unit-5: 4rem;
+	--unit-6: 6.5rem;
+
+	/* colors */
+	--purple: #7574ff;
+	--blue: #a0d4ff;
+	--green: #ddf18f;
+	--red: #ffa6a0;
+	--orange: #ffd0af;
+	--yellow: #fff2b4;
+
+	--black: #36414c;
+	--dark-grey: #67737f;
+	--grey: #9ca5ae;
+	--light-grey: #d3d7db;
+	--white: #ffffff;
+
+	--primary-color: var(--purple);
+}

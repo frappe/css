@@ -1,13 +1,13 @@
 const fs = require('fs');
 const postcss = require('postcss');
 const atImport = require('postcss-import');
-const cssnext = require('cssnext');
+const customProperties = require('postcss-custom-properties');
 
-const input = 'src/base.css';
+const input = 'src/index.css';
 const output = 'dist/frappe-css.css';
 
 fs.readFile(input, (err, css) => {
-    postcss([atImport, cssnext])
+    postcss([atImport, customProperties])
         .process(css, { from: input, to: output })
         .then(result => {
             fs.writeFile(output, result.css);
