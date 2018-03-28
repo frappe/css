@@ -1,7 +1,7 @@
 /* padding */
 
 .pt0 {
-	padding-top: var(--unit-0)
+	padding-top: var(--unit-0);
 }
 
 .pb0 {
@@ -98,6 +98,10 @@
 
 .p4 {
 	padding: var(--unit-4);
+}
+
+.p6 {
+	padding: var(--unit-6);
 }
 
 .ph1 {

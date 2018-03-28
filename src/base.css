@@ -28,10 +28,24 @@ code, pre {
 	border-right: var(--border-value);
 }
 
+.border-top {
+	border-top: var(--border-value);
+}
+
+.border-bottom {
+	border-bottom: var(--border-value);
+}
+
+.border-left {
+	border-left: var(--border-value);
+}
+
 /* list */
 
 .list-unstyled {
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 /* button */
@@ -47,4 +61,18 @@ code, pre {
 
 .btn:hover {
 	background-color: var(--dark-grey);
+}
+
+/* color utilities */
+
+.bg-dark-grey {
+	background-color: var(--dark-grey);
+}
+
+.fg-white {
+	color: var(--white);
+}
+
+.container {
+	max-width: var(--screen-md);
 }

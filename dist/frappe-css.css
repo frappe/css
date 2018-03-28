@@ -30,10 +30,27 @@ code, pre {
 	border-right: var(--border-value);
 }
 
+.border-top {
+	border-top: 1px solid #d3d7db;
+	border-top: var(--border-value);
+}
+
+.border-bottom {
+	border-bottom: 1px solid #d3d7db;
+	border-bottom: var(--border-value);
+}
+
+.border-left {
+	border-left: 1px solid #d3d7db;
+	border-left: var(--border-value);
+}
+
 /* list */
 
 .list-unstyled {
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 /* button */
@@ -52,6 +69,23 @@ code, pre {
 .btn:hover {
 	background-color: #67737f;
 	background-color: var(--dark-grey);
+}
+
+/* color utilities */
+
+.bg-dark-grey {
+	background-color: #67737f;
+	background-color: var(--dark-grey);
+}
+
+.fg-white {
+	color: #ffffff;
+	color: var(--white);
+}
+
+.container {
+	max-width: 1366px;
+	max-width: var(--screen-md);
 }
 
 /* variables */
@@ -86,6 +120,9 @@ code, pre {
 	--border-value: 1px solid #d3d7db;
 
 	--border-value: 1px solid var(--light-grey);
+
+	/* screens */
+	--screen-md: 1366px;
 }
 
 /* typography */
@@ -109,7 +146,7 @@ code, pre {
 
 .mt0 {
 	margin-top: 0;
-	margin-top: var(--unit-0)
+	margin-top: var(--unit-0);
 }
 
 .mb0 {
@@ -130,6 +167,10 @@ code, pre {
 .m0 {
 	margin: 0;
 	margin: var(--unit-0);
+}
+
+.m0auto {
+	margin: 0 auto;
 }
 
 .mt1 {
@@ -236,7 +277,7 @@ code, pre {
 
 .pt0 {
 	padding-top: 0;
-	padding-top: var(--unit-0)
+	padding-top: var(--unit-0);
 }
 
 .pb0 {
@@ -357,6 +398,11 @@ code, pre {
 .p4 {
 	padding: 2.5rem;
 	padding: var(--unit-4);
+}
+
+.p6 {
+	padding: 6.5rem;
+	padding: var(--unit-6);
 }
 
 .ph1 {
