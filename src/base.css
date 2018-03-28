@@ -33,3 +33,18 @@ code, pre {
 .list-unstyled {
 	list-style: none;
 }
+
+/* button */
+
+.btn {
+	padding: 0.5em 1em;
+	color: var(--white);
+	background-color: var(--grey);
+	border: none;
+	border-radius: 0.25rem;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: var(--dark-grey);
+}
