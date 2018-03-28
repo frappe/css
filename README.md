@@ -6,7 +6,7 @@ It is intended for rapid prototyping and usage in frappe framework.
 
 ## Typography
 
-The font sizes or object sizes follow a Fibonacci pattern, for example the sizes will be
+The scale sizes or object sizes follow a Fibonacci pattern, for example the sizes will be
 .5 rem, 1rem, 1.5rem, 2.5rem, 4rem, 6.5rem
 
 The base font size is 16px and all the text sizes are defined by rem.
