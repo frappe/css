@@ -21,8 +21,8 @@
 	--dark-grey: #67737f;
 	--grey: #9ca5ae;
 	--light-grey: #d3d7db;
+	--bg-light: #fafbfc;
 	--white: #ffffff;
-
 	--primary-color: var(--purple);
 
 	--border-value: 1px solid var(--light-grey);
