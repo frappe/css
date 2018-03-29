@@ -11,3 +11,25 @@
 .h3 {
 	font-size: var(--unit-2);
 }
+
+/* colors */
+
+.text-white {
+	color: var(--white);
+}
+
+.text-light {
+	color: var(--bg-light);
+}
+
+.text-light-grey {
+	color: var(--light-grey);
+}
+
+.text-dark-grey {
+	color: var(--dark-grey);
+}
+
+.text-black {
+	color: var(--black);
+}
