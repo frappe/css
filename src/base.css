@@ -75,11 +75,27 @@ input {
 	background-color: var(--dark-grey);
 }
 
+.bg-light-grey {
+	background-color: var(--light-grey);
+}
+
+.focus\:bg-white:focus {
+	background-color: var(--white);
+}
+
+.hover\:bg-white:hover {
+	background-color: var(--white);
+}
+
+.bg-white {
+	background-color: var(--white);
+}
+
 .fg-white {
 	color: var(--white);
 }
 
-.hover-light-grey:hover {
+.hover\:bg-light-grey:hover {
 	background-color: var(--light-grey);
 }
 
@@ -93,4 +109,13 @@ input {
 
 .relative {
 	position: relative;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.top-sticky {
+	position: sticky;
+	top: 0;
 }
