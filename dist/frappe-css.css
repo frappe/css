@@ -10,7 +10,8 @@ blockquote, dl, ol, p, pre, ul {
 	margin-bottom: 1em;
 }
 
-code, pre {
+code,
+pre {
 	font-family: monospace;
 }
 
@@ -19,6 +20,11 @@ input {
 	border: none;
 	border-radius: 0.25rem;
 	border-radius: var(--border-radius);
+}
+
+a {
+	color: #67737f;
+	color: var(--dark-grey);
 }
 
 /* utilities */
@@ -91,14 +97,9 @@ input {
 	background-color: var(--light-grey);
 }
 
-.focus\:bg-white:focus {
-	background-color: #ffffff;
-	background-color: var(--white);
-}
-
-.hover\:bg-white:hover {
-	background-color: #ffffff;
-	background-color: var(--white);
+.bg-light {
+	background-color: #fafbfc;
+	background-color: var(--bg-light);
 }
 
 .bg-white {
@@ -111,9 +112,29 @@ input {
 	color: var(--white);
 }
 
+.fg-light-grey {
+	color: #d3d7db;
+	color: var(--light-grey);
+}
+
+.focus\:bg-white:focus {
+	background-color: #ffffff;
+	background-color: var(--white);
+}
+
+.hover\:bg-white:hover {
+	background-color: #ffffff;
+	background-color: var(--white);
+}
+
 .hover\:bg-light-grey:hover {
 	background-color: #d3d7db;
 	background-color: var(--light-grey);
+}
+
+.hover\:bg-light:hover {
+	background-color: #fafbfc;
+	background-color: var(--bg-light);
 }
 
 .border-radius {
@@ -126,12 +147,14 @@ input {
 	max-width: var(--screen-md);
 }
 
-.relative {
-	position: relative;
-}
-
 .inline-block {
 	display: inline-block;
+}
+
+/* positions */
+
+.relative {
+	position: relative;
 }
 
 .top-sticky {
@@ -162,10 +185,9 @@ input {
 	--dark-grey: #67737f;
 	--grey: #9ca5ae;
 	--light-grey: #d3d7db;
+	--bg-light: #fafbfc;
 	--white: #ffffff;
-
 	--primary-color: #7574ff;
-
 	--primary-color: var(--purple);
 
 	--border-value: 1px solid #d3d7db;

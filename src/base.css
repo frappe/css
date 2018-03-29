@@ -10,7 +10,8 @@ blockquote, dl, ol, p, pre, ul {
 	margin-bottom: 1em;
 }
 
-code, pre {
+code,
+pre {
 	font-family: monospace;
 }
 
@@ -18,6 +19,10 @@ input {
 	outline: none;
 	border: none;
 	border-radius: var(--border-radius);
+}
+
+a {
+	color: var(--dark-grey);
 }
 
 /* utilities */
@@ -79,12 +84,8 @@ input {
 	background-color: var(--light-grey);
 }
 
-.focus\:bg-white:focus {
-	background-color: var(--white);
-}
-
-.hover\:bg-white:hover {
-	background-color: var(--white);
+.bg-light {
+	background-color: var(--bg-light);
 }
 
 .bg-white {
@@ -95,8 +96,24 @@ input {
 	color: var(--white);
 }
 
+.fg-light-grey {
+	color: var(--light-grey);
+}
+
+.focus\:bg-white:focus {
+	background-color: var(--white);
+}
+
+.hover\:bg-white:hover {
+	background-color: var(--white);
+}
+
 .hover\:bg-light-grey:hover {
 	background-color: var(--light-grey);
+}
+
+.hover\:bg-light:hover {
+	background-color: var(--bg-light);
 }
 
 .border-radius {
@@ -107,12 +124,14 @@ input {
 	max-width: var(--screen-md);
 }
 
-.relative {
-	position: relative;
-}
-
 .inline-block {
 	display: inline-block;
+}
+
+/* positions */
+
+.relative {
+	position: relative;
 }
 
 .top-sticky {
