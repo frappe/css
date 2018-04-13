@@ -263,6 +263,10 @@ a {
 	color: var(--black);
 }
 
+.text-center {
+	text-align: center;
+}
+
 /* margin */
 
 .mt0 {

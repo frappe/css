@@ -33,3 +33,7 @@
 .text-black {
 	color: var(--black);
 }
+
+.text-center {
+	text-align: center;
+}
