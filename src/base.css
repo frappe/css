@@ -27,12 +27,6 @@ pre {
 
 input {
 	outline: none;
-	border: none;
-	border-radius: var(--border-radius);
-}
-
-a {
-	color: var(--dark-grey);
 }
 
 /* utilities */
@@ -130,6 +124,10 @@ a {
 	display: inline-block;
 }
 
+.display-none {
+	display: none;
+}
+
 /* positions */
 
 .relative {
@@ -156,4 +154,24 @@ a {
 .thumb-large {
 	width: var(--unit-6);
 	height: auto;
+}
+
+/* icons */
+
+.icon {
+	fill: var(--dark-grey);
+	height: 1rem;
+	width: 1rem;
+}
+
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 0.25rem solid transparent;
+	border-right: 0.25rem solid transparent;
+	border-top: 0.25rem solid var(--dark-grey);
+}
+
+.decoration-none {
+	text-decoration: none;
 }

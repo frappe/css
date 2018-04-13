@@ -33,3 +33,7 @@
 .text-black {
 	color: var(--black);
 }
+
+.text-semi-bold {
+	font-weight: 600
+}
