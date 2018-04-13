@@ -115,10 +115,6 @@ input {
 	border-radius: var(--border-radius);
 }
 
-.container {
-	max-width: var(--screen-md);
-}
-
 .inline-block {
 	display: inline-block;
 }

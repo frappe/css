@@ -28,5 +28,6 @@
 	--border-radius: 0.25rem;
 
 	/* screens */
-	--screen-md: 1440px;
+	--screen-palm: 970px;
+	--screen-laptop: 1280px;
 }
