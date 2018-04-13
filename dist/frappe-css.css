@@ -285,6 +285,10 @@ input {
 	font-weight: 600
 }
 
+.text-center {
+	text-align: center;
+}
+
 /* margin */
 
 .mt0 {
