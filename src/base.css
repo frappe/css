@@ -65,12 +65,12 @@ input {
 /* button */
 
 .btn {
-	padding: 0.5em 1em;
-	color: var(--white);
 	background-color: var(--grey);
-	border: none;
 	border-radius: var(--border-radius);
+	border: none;
+	color: var(--white);
 	cursor: pointer;
+	padding: 0.5em 1em;
 }
 
 .btn:hover {
@@ -145,18 +145,18 @@ input {
 /* images */
 
 .thumb-small {
-	width: var(--unit-2);
 	height: auto;
+	width: var(--unit-2);
 }
 
 .thumb-medium {
-	width: var(--unit-5);
 	height: auto;
+	width: var(--unit-5);
 }
 
 .thumb-large {
-	width: var(--unit-6);
 	height: auto;
+	width: var(--unit-6);
 }
 
 /* icons */
@@ -168,11 +168,11 @@ input {
 }
 
 .arrow-down {
-	width: 0;
-	height: 0;
 	border-left: 0.25rem solid transparent;
 	border-right: 0.25rem solid transparent;
 	border-top: 0.25rem solid var(--dark-grey);
+	height: 0;
+	width: 0;
 }
 
 .decoration-none {
