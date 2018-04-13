@@ -71,15 +71,15 @@ input {
 /* button */
 
 .btn {
-	padding: 0.5em 1em;
-	color: #ffffff;
-	color: var(--white);
 	background-color: #adb5bb;
 	background-color: var(--grey);
-	border: none;
 	border-radius: 0.25rem;
 	border-radius: var(--border-radius);
+	border: none;
+	color: #ffffff;
+	color: var(--white);
 	cursor: pointer;
+	padding: 0.5em 1em;
 }
 
 .btn:hover {
@@ -161,21 +161,21 @@ input {
 /* images */
 
 .thumb-small {
+	height: auto;
 	width: 1rem;
 	width: var(--unit-2);
-	height: auto;
 }
 
 .thumb-medium {
+	height: auto;
 	width: 4rem;
 	width: var(--unit-5);
-	height: auto;
 }
 
 .thumb-large {
+	height: auto;
 	width: 6.5rem;
 	width: var(--unit-6);
-	height: auto;
 }
 
 /* icons */
@@ -188,12 +188,12 @@ input {
 }
 
 .arrow-down {
-	width: 0;
-	height: 0;
 	border-left: 0.25rem solid transparent;
 	border-right: 0.25rem solid transparent;
 	border-top: 0.25rem solid #6d7a83;
 	border-top: 0.25rem solid var(--dark-grey);
+	height: 0;
+	width: 0;
 }
 
 .decoration-none {
@@ -218,7 +218,6 @@ input {
 	--red: #ffa6a0;
 	--orange: #ffd0af;
 	--yellow: #fff2b4;
-
 	--black: #000000;
 	--dark-grey: #6d7a83;
 	--grey: #adb5bb;
@@ -282,7 +281,7 @@ input {
 }
 
 .text-semi-bold {
-	font-weight: 600
+	font-weight: 600;
 }
 
 .text-center {
